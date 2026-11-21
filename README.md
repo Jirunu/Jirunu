@@ -66,13 +66,22 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## 🔥 Daily
+## 🌱 Grass
 
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jirunu/Jirunu/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Jirunu/Jirunu/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/Jirunu/Jirunu/output/snake.svg" alt="잔디를 먹는 스네이크" width="100%" />
+</picture>
+
 <a href="https://jirunu.github.io/TodayToDo/"><img src="https://streak-stats.demolab.com?user=Jirunu&theme=transparent&hide_border=true&ring=16A34A&fire=16A34A&currStreakLabel=16A34A&date_format=Y.n.j&locale=ko" alt="GitHub 연속 커밋 기록" /></a>
 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jirunu&bg_color=00000000&color=16a34a&line=16a34a&point=0ea5e9&area=true&area_color=16a34a&hide_border=true&custom_title=%EC%B5%9C%EA%B7%BC%20%EC%BB%A4%EB%B0%8B%20%ED%99%9C%EB%8F%99" alt="최근 커밋 활동 그래프" width="100%" />
+
 <a href="https://jirunu.github.io/TodayToDo/"><img src="https://img.shields.io/badge/%EC%98%A4%EB%8A%98%EC%9D%98%20CS%20%EB%B3%B4%EB%9F%AC%20%EA%B0%80%EA%B8%B0-16a34a?style=for-the-badge&logo=githubpages&logoColor=white" alt="오늘의 CS 보러 가기" /></a>
+<a href="https://today-to-do-phi.vercel.app"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel에서 보기" /></a>
 
 </div>
 

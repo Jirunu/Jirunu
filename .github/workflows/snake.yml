@@ -1,0 +1,30 @@
+name: snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # 6시간마다 잔디 그림 갱신
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light&color_snake=#16a34a
+            dist/snake-dark.svg?palette=github-dark&color_snake=#22c55e
+      - uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: 잔디 스네이크 갱신"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
