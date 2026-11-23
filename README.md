@@ -12,6 +12,17 @@
 - 🌱 지금은 매일 기술 뉴스에서 CS 개념을 뽑아 공부하고 백준 문제로 연결하는 **[TodayToDo](https://github.com/Jirunu/TodayToDo)** 를 운영하고 있습니다.
 - 🧭 팀 프로젝트 **[KultureRoute](https://github.com/Jirunu/kulture_route)** 에서 팀장으로 백엔드와 AI 프롬프팅을 맡았습니다.
 
+## 📚 Today
+
+<a href="https://jirunu.github.io/TodayToDo/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jirunu/TodayToDo/main/assets/today-dark.svg" />
+    <img src="https://raw.githubusercontent.com/Jirunu/TodayToDo/main/assets/today.svg" alt="오늘 공부하는 CS 개념과 백준 문제" width="495" />
+  </picture>
+</a>
+
+<sub>매일 아침 TodayToDo가 고른 오늘의 CS 개념과 백준 문제입니다. 카드를 누르면 공부 페이지로 이동합니다.</sub>
+
 ## 📌 Projects
 
 <table>
